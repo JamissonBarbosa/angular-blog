@@ -1,0 +1,23 @@
+.custom-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.custom-list-item {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 5rem;
+  padding: 0;
+  padding-left: 0.4rem;
+
+  margin-right: 1rem;
+  margin-top: 0.6rem;
+}
+
+.custom-list span {
+  margin-right: 0.5rem;
+  margin-top: 10px;
+  font-weight: bolder;
+}

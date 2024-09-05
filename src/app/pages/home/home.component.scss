@@ -1,4 +1,8 @@
 .container-articles {
-  margin-top: 1rem;
   display: flex;
+  flex-direction: row; // Default direction
+
+  @media (max-width: 1420px) {
+    flex-direction: column;
+  }
 }

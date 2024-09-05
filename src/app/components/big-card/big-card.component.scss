@@ -1,27 +1,15 @@
-.container-big-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-
+.example-card {
+  //width: 93%;
   margin: 2rem;
-  height: 100vh;
-  width: 50%;
+  background-color: #111;
+  color: #666;
+}
 
-  .big-card-image > img {
-    width: 100%;
-  }
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
 
-  .big-card-title {
-    > h1 > a {
-      font-size: 1.5rem;
-      color: #fff;
-    }
-  }
-
-  .big-card-description {
-    > p > a {
-      color: #666;
-    }
-  }
+.description-card {
+  margin-top: 2rem;
 }

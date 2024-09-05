@@ -7,11 +7,18 @@
     font-weight: bold;
     display: flex;
     justify-content: center;
+
+    @media (max-width: 960px) {
+      font-size: 8rem;
+    }
+
+    @media (max-width: 560px) {
+      font-size: 5rem;
+    }
   }
 
   > hr {
     color: #fff;
-    margin-top: 2rem;
     margin-bottom: 1rem;
   }
 }
